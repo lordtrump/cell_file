@@ -75,7 +75,7 @@ if not os.path.exists(webui_path):
     start_install = int(time.time())
     print("⌚ Unpacking Stable Diffusion...", end='')
     with capture.capture_output() as cap:
-        get_ipython().system('aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/godtrex99/REPO/resolve/main/Files/wibu.zip -o repo.zip')
+        get_ipython().system('aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/godtrex99/REPO/resolve/main/Files/UI.zip -o repo.zip')
         get_ipython().system('unzip -q -o repo.zip -d {root_path}')
         get_ipython().system('rm -rf repo.zip')
         get_ipython().run_line_magic('cd', '{root_path}')
