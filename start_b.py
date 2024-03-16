@@ -75,7 +75,7 @@ if not os.path.exists(webui_path):
     start_install = int(time.time())
     print("⌚ Unpacking Stable Diffusion...", end='')
     with capture.capture_output() as cap:
-        get_ipython().system('aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/godtrex99/REPO/resolve/main/Files/UI.zip -o repo.zip')
+        get_ipython().system('aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/godtrex99/REPO/resolve/main/Files/repo.zip -o repo.zip')
         get_ipython().system('unzip -q -o repo.zip -d {root_path}')
         get_ipython().system('rm -rf repo.zip')
         get_ipython().run_line_magic('cd', '{root_path}')
@@ -117,10 +117,7 @@ if any(not file.endswith('.txt') for file in os.listdir(loras_dir)):
     print("\n\033[33m➤ LoRAs\033[0m")
     get_ipython().system("find {loras_dir}/ -mindepth 1 ! -name '*.keep' -printf '%f\\n'")
 print(f"\n\033[33m➤ Extensions\033[0m")
-get_ipython().system("find {extensions_dir}/ -mindepth 1 -maxdepth 1 ! -name '*.txt' -printf '%f\\n'")
-if any(not file.endswith(('.txt', '.yaml')) for file in os.listdir(control_dir)):
-    print("\n\033[33m➤ ControlNet\033[0m")
-    get_ipython().system("find {control_dir}/ -mindepth 1 ! -name '*.yaml' -printf '%f\\n' | sed 's/^[^_]*_[^_]*_[^_]*_\\(.*\\)_fp16\\.safetensors$/\\1/'")
+    get_ipython().system("find {extensions_dir}/ -mindepth 1 -maxdepth 1 ! -name '*.txt' -printf '%f\\n'")
 
 with capture.capture_output() as cap:
     get_ipython().system('rm -rf /home/studio-lab-user/.conda/envs/studiolab-safemode')
