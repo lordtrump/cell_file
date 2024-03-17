@@ -117,7 +117,9 @@ if any(not file.endswith('.txt') for file in os.listdir(loras_dir)):
     print("\n\033[33m➤ LoRAs\033[0m")
     get_ipython().system("find {loras_dir}/ -mindepth 1 ! -name '*.keep' -printf '%f\\n'")
 print(f"\n\033[33m➤ Extensions\033[0m")
-    get_ipython().system("find {extensions_dir}/ -mindepth 1 -maxdepth 1 ! -name '*.txt' -printf '%f\\n'")
+get_ipython().system("find {extensions_dir}/ -mindepth 1 -maxdepth 1 ! -name '*.txt' -printf '%f\\n'")
+if any(not file.endswith(('.txt', '.yaml')) for file in os.listdir(control_dir)):
+    print("\n\033[33m➤ ControlNet\033[0m")
 
 with capture.capture_output() as cap:
     get_ipython().system('rm -rf /home/studio-lab-user/.conda/envs/studiolab-safemode')
