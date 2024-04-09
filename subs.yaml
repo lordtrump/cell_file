@@ -1,0 +1,415 @@
+proxies:
+# ===================[ GARUDASSH ]=================== #
+  - name: "🇮🇩ID 1 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: fb5ddbaa-41ab-411a-948a-bd5e5f8630d5
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: wijaya3.daneshswara.online
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: wijaya3.daneshswara.online
+    udp: true
+  - name: "🇮🇩ID 2 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: 43b9c4d5-b368-4b10-939a-ca99946ccb39
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id.faeyzaovh.online
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: id.faeyzaovh.online
+    udp: true
+  - name: "🇮🇩ID 3 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: 131c0b38-bf01-4552-8c90-ca5b43c96c85
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: wijaya3.daneshswara.online
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: wijaya3.daneshswara.online
+    udp: true
+  - name: "🇮🇩ID 4 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: ad75749a-58c7-4b5e-9c03-f1910946942e
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: wijaya3.daneshswara.online
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: wijaya3.daneshswara.online
+    udp: true
+  - name: "🇮🇩ID 5 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: 6020da38-0c4e-4181-ab5e-13aabb7df17e
+    skip-cert-verify: true
+    sni: id.serverwifi.my.id
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: id.serverwifi.my.id
+    udp: true
+  - name: "🇮🇩ID 6 | ♍ |" 
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: 639a5d3e-c1a0-41c2-95cb-32877af8c26e
+    skip-cert-verify: true
+    sni: id.serverwifi.my.id
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: id.serverwifi.my.id
+    udp: true
+  - name: "🇮🇩ID 7 | ♍ |" 
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: edb68d36-e842-409c-bb0b-45154d764f26
+    skip-cert-verify: true
+    sni: wijaya3.daneshswara.online
+    network: ws
+    ws-opts:
+      path: /trojan-ws
+      headers:
+        Host: wijaya3.daneshswara.online
+    udp: true
+  - name: "🇮🇩ID 8 | ♍ |" 
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: aaea687d-8cfa-451c-9af5-06f910f81b6d
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: id.faeyzanet.cloud
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: id.faeyzanet.cloud
+    udp: true
+# ===================[ ]=================== #
+  - name: "🇸🇬SGP 1 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: ed7877f4-9362-411d-954e-ffc094ea76a1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-do1.nekoboy.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg-do1.nekoboy.my.id
+    udp: true
+  - name: "🇸🇬SGP 2 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: ed7877f4-9362-411d-954e-ffc094ea76a1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-do1.nekoboy.my.id
+    network: grpc
+    grpc-opts:
+      grpc-service-name: vmess-grpc
+    udp: true
+  - name: "🇸🇬SGP 3 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: 68fa45e7-8a13-4443-b1ee-d17221744823
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: comunitysec.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: comunitysec.my.id
+    udp: true
+  - name: "🇸🇬SGP 4 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: ff02a30d-e54d-45fc-86be-2e46d8e45964
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-do1.nekoboy.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg-do1.nekoboy.my.id
+    udp: true
+  - name: "🇸🇬SGP 5 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vmess
+    uuid: b3c0be36-4ced-4628-83e8-6bbcf1b68599
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-do1.nekoboy.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg-do1.nekoboy.my.id
+    udp: true
+  - name: "🇸🇬SGP 6 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: 518a985e-6154-4839-bbde-d71856556f35
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: do5.xyz-my.eu.org
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: do5.xyz-my.eu.org
+    udp: true
+  - name: "🇸🇬SGP 7 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: aca6f474-7e6e-43d5-9083-c2d4bf3cf611
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: do5.xyz-my.eu.org
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: do5.xyz-my.eu.org
+    udp: true
+  - name: "🇸🇬SGP 8 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: 44f9fc13-17f4-4130-ab6d-9c87e77a0a2a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: do5.xyz-my.eu.org
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: do5.xyz-my.eu.org
+    udp: true
+  - name: "🇸🇬SGP 9 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: 0aad7008-21d5-4c24-9ffc-fce45a73c26a
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: do5.xyz-my.eu.org
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: do5.xyz-my.eu.org
+    udp: true
+  - name: "🇸🇬SGP 10 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: 5341719a-8b70-4b32-b546-f841f568003f
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: do3.hate-me.eu.org
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: do3.hate-me.eu.org
+    udp: true
+  - name: "🇸🇬SGP 11 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: d5821ced-7cc4-4f67-ab45-7037d713333f
+    skip-cert-verify: true
+    sni: comunitysec.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: comunitysec.my.id
+    udp: true
+  - name: "🇸🇬SGP 12 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: 81a2a171-916d-4c33-9ae0-6214bfebffbc
+    skip-cert-verify: true
+    sni: comunitysec.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: comunitysec.my.id
+    udp: true
+  - name: "🇸🇬SGP 13 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: 532bd0f5-cfaf-480b-9647-d4f565646317
+    skip-cert-verify: true
+    sni: comunitysec.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: comunitysec.my.id
+    udp: true
+  - name: "🇸🇬SGP 14 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: 00fbf7b8-7335-403d-9ff2-c0893ed4d987
+    skip-cert-verify: true
+    sni: comunitysec.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: comunitysec.my.id
+    udp: true
+  - name: "🇸🇬SGP 15 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: trojan
+    password: 6e7e6fa2-40f6-4e71-a6cc-0408ac73326b
+    skip-cert-verify: true
+    sni: comunitysec.my.id
+    network: ws
+    ws-opts:
+      path: /trojan
+      headers:
+        Host: comunitysec.my.id
+    udp: true
+# ===================[ FREE VLESS ]=================== #
+  - name: "🇭🇰HK 1 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: 9bb31ef7-b984-4a36-bdfc-f2995f60e334
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hk2.dugong2024.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: hk2.dugong2024.workers.dev
+    udp: true
+  - name: "🇭🇰HK 2 | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: 59554b35-281c-4ead-ae0f-8fda88fc175e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: hk1.dugong2024.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: hk1.dugong2024.workers.dev
+    udp: true
+  - name: "🇸🇬Linode | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: 5ecec113-bba0-41c7-8a91-b051f5b0c211
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg3.dugong2024.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: sg3.dugong2024.workers.dev
+    udp: true
+  - name: "🇸🇬Oracle | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: 9ff210ba-471b-489b-ad5a-f7785a0a6399
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg4.dugong2024.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: sg4.dugong2024.workers.dev
+    udp: true
+  - name: "🇸🇬Tencent | ♍ |"
+    server: 104.22.5.240
+    port: 443
+    type: vless
+    uuid: 37e127f6-8381-40b3-b8e3-7a981f425ee9
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg5.dugong2024.workers.dev
+    network: ws
+    ws-opts:
+      path: /?ed=2048
+      headers:
+        Host: sg5.dugong2024.workers.dev
+    udp: true
