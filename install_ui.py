@@ -18,7 +18,7 @@ ext_path = f"{webui_path}/extensions"
 if not os.path.exists(webui_path):
     print("⌚ Install Stable Diffusion", end='')
     with capture.capture_output() as cap:
-        get_ipython().system('aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/godtrex99/Repo/resolve/main/UI/wibui_v11.zip -o repo.zip')
+        get_ipython().system('aria2c --console-log-level=error -c -x 16 -s 16 -k 1M https://huggingface.co/godtrex99/Repo/resolve/main/UI/wibui_v12.zip -o repo.zip')
         get_ipython().system('unzip -q -o repo.zip -d {ui_path}')
         get_ipython().system('rm -rf repo.zip')
         get_ipython().run_line_magic('cd', '{home_dir}')
